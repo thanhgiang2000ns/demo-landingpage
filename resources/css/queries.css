@@ -1,0 +1,335 @@
+    /* big tablet to 1200px */
+
+    @media only screen and (max-width:1200px) {
+
+
+    html {
+        font-size: 16px;
+    }
+
+    .heading-main-box {
+        transform: translate(-35%, -50%);
+    }
+
+    .product-box .btn {
+        margin: 14% 18%;
+     
+     }
+
+    form {
+        margin-left: 30%;
+    }
+
+    }
+
+    /* small tablet to big tablet from 768px to 1023px */
+
+    @media only screen and (max-width:1023px) {
+
+    .logo {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .main-nav {
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+
+    .main-nav ul {
+        margin-right: 10px;
+    }
+    .main-nav li {
+        margin-right: 10px;
+    }
+
+    .heading-main-box {
+        transform: translate(-30%, -50%);
+    }
+    
+    .picture-title {
+        text-align: center;
+        transform: translate(-45%, 100%);
+    }
+
+    .product-box {
+        width: 90%;
+    }
+
+    .product-box h3 {
+        font-size: 90%;
+    }
+
+    .product-section .btn {
+        width: 80%;
+        left: 7%;
+    }
+
+    .small-icon {
+        /* font-size: 90%; */
+        margin-right: 10px;
+    }
+
+    .product-box p {
+        margin-top: 10px;
+    }
+
+    .product-box ul {
+        margin-top: 35px;
+    }
+
+    .product-box ul li {
+        font-size: 85%;
+        margin-left: 10%;
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    
+    .product-box .btn {
+        margin: 10%;
+    }
+    
+    .social-icon li {
+        margin-left: 10px;
+    }
+    .information i {
+        display: block;
+    }
+    .information li {
+        font-size: 14px;
+    }
+    cite img {
+        height: 40px;
+    }
+    .sponsors-showcase li {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .logo-sponsors {
+        width: 100px;
+    }
+    .information .small-icon:hover,
+    .information .small-icon:active {
+        transform: scale(0.99, 1.2);
+    }
+    /* small phone and small tablet  */
+    @media only screen and (max-width:767px) {
+        .col {
+            width: 100%;
+        }
+        .main-nav {
+            display: none;
+        }
+        .main-nav li {
+           
+            margin-top: 50px;
+        }
+        .logo {
+            width: 350px;
+            margin-left: 10%;
+            margin-bottom: -150px;
+        }
+        h1 {
+            word-spacing: 2px;
+            font-size: 250%;
+        }
+        .heading-main-box {
+            transform: translate(-18%, -50%);
+        }
+      
+        .mobile-nav-icon
+        {
+            display: block !important;
+         
+        }
+        .sticky .mobile-nav-icon
+        {
+           top: 20px;
+        }
+        .sticky .main-nav
+        {
+            margin-top: -20px;
+        }
+        .heading-main-box .btn {
+            width: 15%;
+        }
+        .about-section .p-long {
+            font-size: 20px;
+        }
+        .about-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .about-picture img {
+            width: 70%;
+        }
+        .picture-title {
+            font-size: 22px;
+            text-align: center;
+            top: 50%;
+            left: 55%;
+        }
+        .col:first-child {
+            margin-left: 5px;
+        }
+        .product-section .row {
+            width: 80%;
+            margin-left: 15%;
+        }
+        .product-box h3 {
+            font-size: 100%;
+        }
+        .product-price span {
+            font-size: 90%;
+        }
+        .product-box ul li {
+            font-size: 120%;
+        }
+        .product-box ul li i {
+            font-size: 17px;
+        }
+        cite {
+            margin-top: 10px;
+            margin-bottom: 35px;
+        }
+        .logo-sponsors {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        form {
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 15px;
+        }
+        label {
+            margin-left: 30%;
+        }
+        .information {
+            margin-top: 0px;
+            margin-left: 15%;
+        }
+        .information li {
+            font-size: 16px;
+        }
+        .social-icon {
+            text-align: center;
+            font-size: 120%;
+            margin-top: 15px;
+        }
+        /*  */
+    }
+
+    @media only screen and (max-width:570px)
+    {
+        .mobile-nav-icon
+        {
+            right: 35px;
+        }
+
+
+    }
+
+
+    /* small phone from 0 to 480px */
+    @media only screen and (max-width:480px) {
+        html {
+            font-size: 12px;
+        }
+        header {
+            height: 85vh;
+        }
+        h1 {
+            font-size: 200%;
+        }
+        .logo {
+            width: 200px;
+            margin-top: 10%;
+            margin-left: 20%;
+        }
+        .heading-main-box {
+            transform: translate(-10%, -50%);
+        }
+        .heading-main-box .btn {
+            width: 12%;
+            display: block;
+            margin-bottom: 20px;
+            margin-left: 2%;
+        }
+        .col:first-child {
+            margin-left: 0px;
+        }
+        .product-box {
+            margin-bottom: 15px;
+        }
+        .sponsors-showcase {
+            color: white;
+            display: flex;
+            overflow-x: scroll;
+            justify-content: end;
+            -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
+            -webkit-scroll-snap-points-x: repeat(300px);
+            -ms-scroll-snap-points-x: repeat(300px);
+            scroll-snap-points-x: repeat(300px);
+            -webkit-scroll-snap-type: mandatory;
+            -ms-scroll-snap-type: mandatory;
+            scroll-snap-type: mandatory;
+            margin-bottom: 15px;
+        }
+        .logo-sponsors {
+            flex-shrink: 0;
+        }
+        figcaption {
+            display: none;
+        }
+        .sponsors-showcase li .logo-sponsors:hover,
+        .sponsors-showcase li .logo-sponsors:active {
+            transform: scale3d(1.05, 1.05, 1.05);
+        }
+
+        label {
+            margin-left: 20%;
+            
+        }
+        .col
+        {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            outline: none;
+            padding: 10px;
+            background-color: rgba(110, 109, 109, 0.267);
+            border: 1px solid rgba(32, 31, 31, 0.514);
+            margin-left: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        input[type=submit]
+        {
+            margin-left: -5px;
+        }
+        .mobile-nav-icon
+        {
+            right: 35px;
+            top: 95px;
+        }
+
+
+    }
+   
+    @media only screen and (max-width:380px)
+    {
+        .logo {
+            width: 200px;
+            margin-top: 13%;
+            margin-left: 5%;
+        }
+    }
+   
+   
+
+   
+
+}
